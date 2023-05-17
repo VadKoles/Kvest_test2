@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Квест</title>
+</head>
+<body>
+    <input type="button" onclick="n1()" value="Пункт №3">
+    <div id="n1_div">
+        <input type="text" id="n1_inp" placeholder="Пароль">
+        <input type="button" onclick="n1_go()" value="Готово">
+        <div id="n1_img">
+            <img src="images/Place1.jpg">
+            <img src="images/Place2.jpg">
+            <img src="images/Place3.jpg">
+        </div>
+    </div>
+
+    <input type="button" onclick="n2()" value="Пункт №4">
+    <div id="n2_div">
+        <p>Введите последнюю букву с каждого слова в английской раскладке на клавиатуре</p>
+        <input type="text" id="n2_inp" placeholder="Пароль(большими буквами)">
+        <input type="button" onclick="n2_go()" value="Готово">
+        <img src="images/klava.jpg">
+        <p id="n2_text">Привет брат! Короче, <b>за</b> два дня до конца отпуска мне наконец-то выдали с<b>правку</b> о том, что я здоров и могу дальше работать в сфере экономики. Прикинь, сейчас <b>рос</b>сийская <b>нефть</b> на западе на вес золота.</p>
+    </div>
+
+    <input type="button" onclick="n3()" value="Пункт №7">
+    <div id="n3_div">
+        <input type="text" id="n3_inp" placeholder="Пароль">
+        <input type="button" onclick="n3_go()" value="Готово">
+        <p id="n3_text">Идите к подъезду Тимохи(со стороны двора). Когда прийдёте, вы должны скинуть Вадиму на WhatsAp ваше селфи возле подъезда. Быстрее, поторопитесь!!!!!!!</p>
+    </div>
+    <script src="scripts/dimov.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+img{
+    width: 90vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 10px;
+}
+b{
+    font-size: 17px;
+}
